@@ -1,0 +1,11 @@
+namespace: smartops-api
+
+image:
+  imageRepository: docker.io/phengbunath/the-box-88594ebc
+  tag: 1
+
+service:
+  type: ClusterIP
+  port: 3000
+  targetPort: 3000
+
